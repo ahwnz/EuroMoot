@@ -121,21 +121,34 @@
 
     nav#menu ul > li i { width: 100px; text-align: center; }
 
+    nav#menu #scouts-logo {
+      position: absolute;
+      bottom: 0;
+      margin-left: 100px;
+      background-color: #6a2c91;
+    }
+
+    /* Medium Size*/
     @media (min-width: 940px) and (max-width: 1280px) {
       #quotes { font-size: 50px; }
 
       img#background {
         margin-top: -100px;
         margin-left: -300px;
-
       }
     }
 
+    /* Small Size */
     @media (max-width: 940px) {
       nav#topbar { display: block; }
 
       nav#menu, nav#menu:hover, nav#menu > .nav-inner { width: 100%; }
       nav#menu.closed { display: none; }
+
+      nav#menu #scouts-logo {
+        margin: 0;
+        width: 100%;
+      }
 
       #quotes {
         margin-top: 100px;
@@ -168,6 +181,7 @@
         <li><a href="#moc"><i class="fa fa-users"></i> MOC</a></li>
         <li><a href="#contact"><i class="fa fa-at"></i> Contact Us</a></li>
       </ul>
+      <div id="scouts-logo"><img src="../logos/logo-scouts.png" width="300px"></div>
     </div>
   </nav>
   <nav id="topbar">
