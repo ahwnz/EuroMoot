@@ -119,11 +119,17 @@
       background-color: #028;
     }
 
-    nav#menu ul > li i { width: 100px; text-align: center; }
+    nav#menu ul > li i {
+      width: 100px;
+      text-align: center;
+      font-size: 26px;
+      margin: -4px 0;
+    }
 
-    nav#menu #scouts-logo {
+    nav#menu a#scouts-logo {
       position: absolute;
-      bottom: 0;
+      display: inline-block;
+      bottom: 0; width: 100%;
       margin-left: 100px;
       background-color: #6a2c91;
     }
@@ -145,9 +151,9 @@
       nav#menu, nav#menu:hover, nav#menu > .nav-inner { width: 100%; }
       nav#menu.closed { display: none; }
 
-      nav#menu #scouts-logo {
-        margin: 0;
-        width: 100%;
+      nav#menu a#scouts-logo {
+        margin-left: 0;
+
       }
 
       #quotes {
@@ -171,17 +177,16 @@
       <img src="../logos/euro-logo2.png" width="400px" height="100px"/>
       <ul>
         <li><a href="#news"><i class="fa fa-newspaper-o"></i> News</a></li>
-        <li><a href="#what"><i class="fa fa-question"></i> What is Moot?</a></li>
-        <li><a href="#when"><i class="fa fa-clock-o"></i> When is Moot?</a></li>
-        <li><a href="#where"><i class="fa fa-map-marker"></i> Where is Moot?</a></li>
+        <li><a href="#what"><i class="fa fa-question"></i> What? Where? When?</a></li>
         <li><a href="#themes"><i class="fa fa-empire"></i> Theme Nights</a></li>
         <li><a href="#tours"><i class="fa fa-map-signs"></i> Tours</a></li>
         <li><a href="#merchandise"><i class="fa fa-shopping-cart"></i> Merchandise</a></li>
         <li><a href="#trophies"><i class="fa fa-trophy"></i> Trophies</a></li>
         <li><a href="#moc"><i class="fa fa-users"></i> MOC</a></li>
         <li><a href="#contact"><i class="fa fa-at"></i> Contact Us</a></li>
+        <li><a href="https://www.facebook.com/EuroMoot2018/" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
       </ul>
-      <div id="scouts-logo"><img src="../logos/logo-scouts.png" width="300px"></div>
+      <a id="scouts-logo" href="http://www.scouts.org.nz/" target="_blank"><img src="../logos/logo-scouts.png" width="300px"></a>
     </div>
   </nav>
   <nav id="topbar">
