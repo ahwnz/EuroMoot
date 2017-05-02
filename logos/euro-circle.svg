@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 100 100">
-  <desc>Euro Moot Logo</desc>
+  <desc>Euro Circle</desc>
   <defs>
     <g id="star">
       <g id="c">
@@ -13,6 +13,7 @@
       <use xlink:href="#a" transform="scale(-1,1)"/>
     </g>
   </defs>
+  <rect fill="#039" width="100" height="100"/>
   <g fill="#fc0" transform="translate(50,50)scale(7)">
     <use id="topstar" xlink:href="#star" y="-6"/>
     <use id="bottomstar" xlink:href="#star" y="6"/>
