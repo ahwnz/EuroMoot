@@ -75,13 +75,13 @@
   <div id="background-container">
     <img id="background" src="/idea3/tug-o-war-the-moot.jpg"/>
     <h1 id="quotes">
-      <div class="quote-up3">CO TI BRÁNÍ?</div>
-      <div class="quote-up2">HVAD STOPPER DIG?</div>
-      <div class="quote-up1">WAS HÄLT DICH AUF?</div>
-      <div class="quote-main">WHAT'S STOPPING YOU?</div>
-      <div class="quote-down1">¿QUE TE DETIENE?</div>
-      <div class="quote-down2">QU'EST-CE QUI T'ARRÊTE?</div>
-      <div class="quote-down3">COSA TI FERMA?</div>
+      <div class="quote-up3" lang="cs">CO TI BRÁNÍ?</div>
+      <div class="quote-up2" lang="da">HVAD STOPPER DIG?</div>
+      <div class="quote-up1" lang="de">WAS HÄLT DICH AUF?</div>
+      <div class="quote-main" lang="en">WHAT'S STOPPING YOU?</div>
+      <div class="quote-down1" lang="es">¿QUE TE DETIENE?</div>
+      <div class="quote-down2" lang="fr">QU'EST-CE QUI T'ARRÊTE?</div>
+      <div class="quote-down3" lang="it">COSA TI FERMA?</div>
     </h1>
   </div>
 </body>
