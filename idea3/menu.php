@@ -14,7 +14,7 @@
     box-shadow: 2px 1px 1px #222;
   }
 
-  nav#topBar > a {
+  nav#topBar > a#showMenu, nav#topBar > a#hideMenu {
     display: inline-block;
     float:  right;
     font-size: 32px;
@@ -108,9 +108,9 @@
     body { padding-top: 75px; }
 
     nav#topbar { height: 75px; }
-    nav#topbar > img.logo, nav#menu img.logo { width: 300px; }
+    nav#topbar img.logo, nav#menu img.logo { width: 300px; }
 
-    nav#topBar > a { padding: 22px 16px; }
+    nav#topBar > a#showMenu, nav#topBar > a#hideMenu { padding: 22px 16px; }
 
     nav#menu, nav#menu:hover { top: 75px; }
 
@@ -122,7 +122,7 @@
 </style>
 <nav id="menu" class="closed">
   <div class="nav-inner">
-    <img class="logo" src="/logos/euro-logo2.png" width="400px"/>
+    <a href="/idea3/"><img class="logo" src="/logos/euro-logo2.png" width="400px"/></a>
     <ul>
       <li><a href="/idea3/news.php"><i class="fa fa-newspaper-o"></i> News</a></li>
       <li><a href="/idea3/what.php"><i class="fa fa-question"></i> What? Where? When?</a></li>
@@ -138,7 +138,7 @@
   </div>
 </nav>
 <nav id="topbar">
-  <img class="logo" src="../logos/euro-logo2.png" width="400px"/>
+  <a href="/idea3/"><img class="logo" src="../logos/euro-logo2.png" width="400px"/></a>
   <a id="showMenu"><i class="fa fa-bars"></i></a>
   <a id="hideMenu"><i class="fa fa-times"></i></a>
 </nav>
