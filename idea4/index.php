@@ -113,15 +113,29 @@
     }
 
     @media screen and (max-width: 820px) {
-      .boxes, .scout-bar, .box, .linkbox {
+      .boxes {
+        width: 100%;
+        padding: 0;
+      }
+
+      .box, .linkbox {
+        width: 100%;
+        margin: 10px 20px;
+      }
+
+      .scout-bar {
         width: 100%;
       }
+    }
+
+    @media screen and (max-width: 400px) {
+      .logo-container { width: 100%; margin: 0; }
     }
   </style>
 </head>
 <body>
   <div class="logo-container">
-    <img class="logo" src="/logos/euro-logo6-kingthings.svg"/>
+    <img class="logo" src="/logos/euro-logo6-kingthings.png"/>
   </div>
   <div class="boxes">
     <div class="box">
