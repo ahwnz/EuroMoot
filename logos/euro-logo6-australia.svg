@@ -36,7 +36,7 @@
         }
 
         .australia > path {
-          fill: transparent;
+          fill: #008000;
           stroke: #fc0;
           stroke-width: 2;
           stroke-linecap: butt;
@@ -155,12 +155,12 @@
 
     <path id="toptext" d="M -60 0 A 60 60 180 0 1 60 0" fill="none"/>
     <path id="bottomtext" d="M -70 0 A 70 70 180 0 0 70 0" fill="none"/>
-    <text class="text" font-size="15" transform="rotate(15)">
+    <text class="text" font-size="15" transform="rotate(22)">
       <textPath xlink:href="#toptext">
         76th NZ ROVER MOOT
       </textPath>
     </text>
-    <text class="text" font-size="15" transform="rotate(-34)">
+    <text class="text" font-size="15" transform="rotate(-28)">
       <textPath xlink:href="#bottomtext">
         Australian Contingent
       </textPath>

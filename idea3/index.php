@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-nz">
 <?php
   $page_title = "Home";
