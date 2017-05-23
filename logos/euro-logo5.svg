@@ -1,25 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 200 200">
   <desc>Euro Moot Logo</desc>
   <defs>
+    <g id="star">
+      <g id="c">
+        <path id="t" d="M0,0v1h0.5z" transform="translate(0,-1)rotate(18)"/>
+        <use xlink:href="#t" transform="scale(-1,1)"/>
+      </g>
+      <g id="a">
+        <use xlink:href="#c" transform="rotate(72)"/>
+        <use xlink:href="#c" transform="rotate(144)"/>
+      </g>
+      <use xlink:href="#a" transform="scale(-1,1)"/>
+    </g>
+  </defs>
+  <rect fill="#039" width="200" height="200"/>
+  <g>
+    <g id="stars" fill="#fc0" transform="translate(100,100)scale(11)rotate(0)">
+      <use id="topstar" xlink:href="#star" y="-8"/>
+      <use id="bottomstar" xlink:href="#star" y="8"/>
+      <g id="left">
+        <use xlink:href="#star" x="-8"/>
+        <g id="bottomleft">
+          <!-- <use xlink:href="#star" transform="rotate(80)translate(0,18)rotate(-80)"/>
+          <use xlink:href="#star" transform="rotate(70)translate(0,18)rotate(-70)"/> -->
+          <use xlink:href="#star" transform="rotate(60)translate(0,8)rotate(-60)"/>
+          <!-- <use xlink:href="#star" transform="rotate(50)translate(0,18)rotate(-50)"/>
+          <use xlink:href="#star" transform="rotate(40)translate(0,18)rotate(-40)"/> -->
+          <use xlink:href="#star" transform="rotate(30)translate(0,8)rotate(-30)"/>
+          <!-- <use xlink:href="#star" transform="rotate(20)translate(0,18)rotate(-20)"/>
+          <use xlink:href="#star" transform="rotate(10)translate(0,18)rotate(-10)"/> -->
+        </g>
+        <use id="topleft" xlink:href="#bottomleft" transform="scale(1, -1)"/>
+      </g>
+      <use id="right" xlink:href="#left" transform="scale(-1, 1)"/>
+    </g>
+
+    <!-- <circle cx="100" cy="100" r="80" fill="none" stroke="#fc0" stroke-width="1.5" />
+    <circle cx="100" cy="100" r="50" fill="none" stroke="#fc0" stroke-width="1.5"/> -->
+  </g>
+  <rect x="-75" y="-18" width="150" height="36" fill="#039" transform="translate(100,103)rotate(-15)"/>
+  <g transform="translate(100, 100)rotate(0)" fill="#fc0">
     <style type="text/css">
-        .background {
-          fill: #039;
-        }
-
-        #stars {
-          fill: #fc0;
-        }
-
-        .text {
-          fill: #fc0;
-          font-family: Helvetica Neue;
-          font-weight: 400;
-        }
-
-        .title {
-          font-weight: 500;
-        }
-
         .fdl-path {
           fill: #039;
           stroke: #fc0;
@@ -35,45 +56,6 @@
           fill:#fc0;
         }
     </style>
-    <g id="star">
-      <g id="c">
-        <path id="t" d="M0,0v1h0.5z" transform="translate(0,-1)rotate(18)"/>
-        <use xlink:href="#t" transform="scale(-1,1)"/>
-      </g>
-      <g id="a">
-        <use xlink:href="#c" transform="rotate(72)"/>
-        <use xlink:href="#c" transform="rotate(144)"/>
-      </g>
-      <use xlink:href="#a" transform="scale(-1,1)"/>
-    </g>
-  </defs>
-  <rect class="background" width="200" height="200"/>
-  <g>
-    <g id="stars" transform="translate(100,100)scale(5)rotate(-15)">
-      <use id="topstar" xlink:href="#star" y="-18"/>
-      <use id="bottomstar" xlink:href="#star" y="18"/>
-      <g id="left">
-        <use xlink:href="#star" x="-18"/>
-        <g id="bottomleft">
-          <use xlink:href="#star" transform="rotate(80)translate(0,18)rotate(-80)"/>
-          <use xlink:href="#star" transform="rotate(70)translate(0,18)rotate(-70)"/>
-          <use xlink:href="#star" transform="rotate(60)translate(0,18)rotate(-60)"/>
-          <use xlink:href="#star" transform="rotate(50)translate(0,18)rotate(-50)"/>
-          <use xlink:href="#star" transform="rotate(40)translate(0,18)rotate(-40)"/>
-          <use xlink:href="#star" transform="rotate(30)translate(0,18)rotate(-30)"/>
-          <use xlink:href="#star" transform="rotate(20)translate(0,18)rotate(-20)"/>
-          <use xlink:href="#star" transform="rotate(10)translate(0,18)rotate(-10)"/>
-        </g>
-        <use id="topleft" xlink:href="#bottomleft" transform="scale(1, -1)"/>
-      </g>
-      <use id="right" xlink:href="#left" transform="scale(-1, 1)"/>
-    </g>
-
-    <circle cx="100" cy="100" r="80" fill="none" stroke="#fc0" stroke-width="1" />
-    <!-- <circle cx="100" cy="100" r="50" fill="none" stroke="#fc0" stroke-width="1.5"/> -->
-  </g>
-  <rect x="-75" y="-18" width="150" height="36" class="background" transform="translate(100,103)rotate(-15)"/>
-  <g transform="translate(100, 100)rotate(-15)">
     <g transform="translate(-23.2,-56)scale(0.2,0.2)">
     	<path
        d="M 35.09619,158.58594 C 35.09619,158.58594 1,147.98535 1,117.32715 C 1,86.66992 22.77539,79.79297 30.51172,79.21973 C 38.24756,78.64746 78.07373,81.79883 87.81592,136.23731 C 97.55713,190.67676 87.81592,208.72754 70.91065,209.30079 C 63.54444,209.55177 54.00635,207.58106 54.29297,184.9463 C 54.29297,184.9463 82.75147,196.34474 80.65283,163.45704 C 80.09326,154.68946 76.49853,137.66993 57.73095,136.81056 C 57.73096,136.81055 40.82617,134.80469 35.09619,158.58594 z"
@@ -96,30 +78,32 @@
     	<path
        d="M 170.24756,164.98633 C 170.24756,168.78906 167.57959,171.87598 164.29151,171.87598 L 69.61865,171.87598 C 66.32861,171.87598 63.66162,168.78907 63.66162,164.98633 L 63.66162,164.98633 C 63.66162,161.18067 66.32861,158.0957 69.61865,158.0957 L 164.2915,158.0957 C 167.57959,158.0957 170.24756,161.18066 170.24756,164.98633 L 170.24756,164.98633 z"
        class="fdl-path fdl-line"/>
-    <path class="fdl-star"
+    <path
        style="opacity:1;fill-opacity:1;stroke:none;stroke-width:0.43140084;stroke-linecap:butt;stroke-linejoin:round;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 31.276085,84.270072 L 34.12134,93.088572 L 43.387465,93.069505 L 35.879804,98.500569 L 38.761329,107.30729 L 31.276085,101.84537 L 23.79084,107.30728 L 26.672365,98.500569 L 19.164705,93.069504 L 28.43083,93.088572 L 31.276085,84.270072 z"
        transform="matrix(1.1589322,0,0,1.1590976,-3.1155722,-0.8234322)" />
-     <path class="fdl-star"
+     <path
        transform="matrix(1.1589322,0,0,1.1590976,163.09647,-0.8234322)"
        d="M 31.276085,84.270072 L 34.12134,93.088572 L 43.387465,93.069505 L 35.879804,98.500569 L 38.761329,107.30729 L 31.276085,101.84537 L 23.79084,107.30728 L 26.672365,98.500569 L 19.164705,93.069504 L 28.43083,93.088572 L 31.276085,84.270072 z"
        style="opacity:1;fill-opacity:1;stroke:none;stroke-width:0.43140084;stroke-linecap:butt;stroke-linejoin:round;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
      </g>
-    <text class="text title" text-anchor="middle" font-size="26" transform="translate(0, 13)">EUROMOOT</text>
-    <text class="text" text-anchor="middle" font-size="24" transform="translate(0, 42)">2018</text>
+    <text text-anchor="middle" font-family="Helvetica Neue" font-size="26" font-weight="500" transform="translate(0, 13)">EUROMOOT</text>
+    <text text-anchor="middle" font-family="Helvetica Neue" font-size="24" font-weight="500" transform="translate(0, 40)">2018</text>
 
 
     <path id="toptext" d="M -60 0 A 60 60 180 0 1 60 0" fill="none"/>
     <path id="bottomtext" d="M -70 0 A 70 70 180 0 0 70 0" fill="none"/>
-    <text class="text" font-size="15" transform="rotate(15)">
+    <text font-size="15" font-family="Helvetica Neue" font-weight="500" transform="rotate(15)">
       <textPath xlink:href="#toptext">
         76th NZ ROVER MOOT
       </textPath>
     </text>
-    <text class="text" font-size="15" transform="rotate(-21)">
+    <text font-size="15" font-family="Helvetica Neue" font-weight="500" transform="rotate(-19)">
       <textPath xlink:href="#bottomtext">
         Ashburton, New Zealand
       </textPath>
     </text>
   </g>
+
+  <!-- <line x1="100" x2="100" y1="0" y2="200" stroke="black"/> -->
 </svg>
