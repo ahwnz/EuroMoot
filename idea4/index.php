@@ -13,7 +13,7 @@
   <style type="text/css">
     @font-face {
       font-family: "Kingthings Foundation";
-      src: url('Kingthings_Foundation.tff');
+      src: url('Kingthings_Foundation.ttf');
     }
 
     * {
@@ -98,7 +98,7 @@
       margin: 20px auto 0 auto;
     }
 
-    .scout-bar > img {
+    .scout-bar img {
       float: right;
       width: 200px;
     }
@@ -135,7 +135,7 @@
 </head>
 <body>
   <div class="logo-container">
-    <img class="logo" src="/logos/euro-logo6-kingthings.png"/>
+    <img class="logo" src="/logos/euro-logo6-kingthings.png" alt="EuroMoot Logo"/>
   </div>
   <div class="boxes">
     <div class="box">
@@ -203,12 +203,14 @@
     </div>
   </div>
   <div class="boxes">
-    <a class="linkbox">Facebook <i class="fa fa-facebook"></i></a>
-    <a class="linkbox">Snapchat <i class="fa fa-snapchat"></i></a>
-    <a class="linkbox">Instagram <i class="fa fa-instagram"></i></a>
+    <a class="linkbox" href="https://www.facebook.com/EuroMoot2018/" target="_blank" title="EuroMoot on Facebook">Facebook <i class="fa fa-facebook"></i></a>
+    <a class="linkbox" title="EuroMoot on Snapchat">Snapchat <i class="fa fa-snapchat"></i></a>
+    <a class="linkbox" href="https://www.instagram.com/EuroMoot2018/" target="_blank" title="EuroMoot on Instagram">Instagram <i class="fa fa-instagram"></i></a>
   </div>
   <div class="scout-bar">
-    <img src="/logos/logo-scouts.png"/>
+    <a href="http://www.scouts.org.nz/" target="_blank">
+      <img src="/logos/logo-scouts.png" alt="Scouts New Zealand Logo"/>
+    <a/>
   </div>
 
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
