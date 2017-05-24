@@ -104,7 +104,7 @@
       padding: 0 20px;
     }
 
-    .box {
+    .box, .linkbox {
       width: 350px;
       margin: 20px;
     }
