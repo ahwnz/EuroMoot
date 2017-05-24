@@ -32,28 +32,18 @@
       margin: 20px auto;
     }
 
-
-    .boxes {
-      width: 1210px;
-      margin: 0 auto;
-      padding: 0 20px;
-
+    .box-set {
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
     }
 
     .box {
-      width: 350px;
-
-      margin: 20px;
       border-radius: 5px;
       background-color: rgba(255,255,255, 0.8);
     }
 
     .linkbox {
-      width: 350px;
-      margin: 20px;
       border-radius: 5px;
       padding: 5px 10px;
       font-size: 28px;
@@ -63,7 +53,7 @@
       color: #039;
     }
 
-    .box > .title {
+    .box > .box-title {
       padding: 5px 10px;
       font-size: 28px;
       font-family: "Kingthings Foundation";
@@ -74,29 +64,28 @@
       color: #039;
     }
 
-    .box > .title > i.fa, .linkbox > i.fa {
+    .box > .box-title > i.fa, .linkbox > i.fa {
       float: right;
       padding: 7px;
     }
 
-    .box > .preview {
+    .box > .box-preview, .box > .box-full {
       padding: 10px;
-
       font-size: 20px;
     }
 
-    .box:hover {
+    .box:hover, .box:active {
       cursor: pointer;
     }
 
-    .box:hover > .title, .linkbox:hover {
+    .box:hover > .box-title, .linkbox:hover {
       color: steelblue;
     }
 
     .scout-bar {
-      background-color: #6a2c91;
-      width: 1130px; height: 63px;
+      height: 63px;
       margin: 20px auto 0 auto;
+      background-color: #6a2c91;
     }
 
     .scout-bar img {
@@ -104,19 +93,36 @@
       width: 200px;
     }
 
-    .euromoot {
-      font-family: "Kingthings Foundation";
+    .euromoot { font-family: "Kingthings Foundation"; }
+
+
+    /* Response Sizing */
+
+    .box-set {
+      width: 1210px;
+      margin: 0 auto;
+      padding: 0 20px;
     }
 
+    .box {
+      width: 350px;
+      margin: 20px;
+    }
+
+    .scout-bar {
+      width: 1130px;
+    }
+
+
     @media screen and (max-width: 1210px) {
-      .boxes { width: 820px; }
+      .box-set { width: 820px; }
       .scout-bar { width: 740px; }
     }
 
     @media screen and (max-width: 820px) {
-      .boxes {
+      .box-set {
         width: 100%;
-        padding: 0;
+        margin: 0; padding: 0;
       }
 
       .box, .linkbox {
@@ -138,72 +144,72 @@
   <div class="logo-container">
     <img class="logo" src="/logos/euro-logo6-kingthings.png" alt="EuroMoot Logo"/>
   </div>
-  <div class="boxes">
-    <div class="box">
-      <div class="title">News <i class="fa fa-newspaper-o"></i></div>
-      <div class="preview">
+  <div class="box-set">
+    <div class="box preview">
+      <div class="box-title">News <i class="fa fa-newspaper-o"></i></div>
+      <div class="box-preview">
         Latest news and updates from the MOC.
       </div>
     </div>
-    <div class="box">
-      <div class="title">What? <i class="fa fa-question"/></i></div>
-      <div class="preview">
+    <div class="box preview">
+      <div class="box-title">What? <i class="fa fa-question"/></i></div>
+      <div class="box-preview">
         A 'moot' is a gathering of Rovers. It is the premier event on the Rover calendar.
         An action packed long weekend, filled to the brim with fun, friends and adventure.
       </div>
     </div>
-    <div class="box">
-      <div class="title">When? <i class="fa fa-clock-o"/></i></div>
-      <div class="preview">
+    <div class="box preview">
+      <div class="box-title">When? <i class="fa fa-clock-o"/></i></div>
+      <div class="box-preview">
         <span class="euromoot">EUROMOOT</span> will run from 29 March to 2 April 2018.
       </div>
     </div>
-    <div class="box">
-      <div class="title">Where? <i class="fa fa-map-marker"/></i></div>
-      <div class="preview">
+    <div class="box preview">
+      <div class="box-title">Where? <i class="fa fa-map-marker"/></i></div>
+      <div class="box-preview">
         <span class="euromoot">EUROMOOT</span> will be held at Mania-O-Roto (MOR) Scout Park,
         Chalmers Ave, Ashburton, Canterbury, New Zealand.
       </div>
     </div>
-    <div class="box">
-      <div class="title">Themes <i class="fa fa-empire"/></i></div>
-      <div class="preview">
+    <div class="box preview">
+      <div class="box-title">Themes <i class="fa fa-empire"/></i></div>
+      <div class="box-preview">
         Each night at Moot we have a party with a fun theme! Dress up with your crew and
         be as creative as possible! Find out what this years themes are here.
       </div>
     </div>
-    <div class="box">
-      <div class="title">Tours <i class="fa fa-map-signs"/></i></div>
-      <div class="preview">
+    <div class="box preview">
+      <div class="box-title">Tours <i class="fa fa-map-signs"/></i></div>
+      <div class="box-preview">
           Check out our range of amazing tours!
       </div>
     </div>
-    <div class="box">
-      <div class="title">Merchandise <i class="fa fa-shopping-cart"/></i></div>
-      <div class="preview">
+    <div class="box preview">
+      <div class="box-title">Merchandise <i class="fa fa-shopping-cart"/></i></div>
+      <div class="box-preview">
         Browse our selection of exclusive moot merchandise.
       </div>
     </div>
-    <div class="box">
-      <div class="title">Trophies <i class="fa fa-trophy"/></i></div>
-      <div class="preview">
+    <div class="box preview">
+      <div class="box-title">Trophies <i class="fa fa-trophy"/></i></div>
+      <div class="box-preview">
         A number of trophies are up for grabs.
       </div>
     </div>
-    <div class="box">
-      <div class="title">MOC <i class="fa fa-users"/></i></div>
-      <div class="preview">
-        Come meet our wonderful MOC.
+    <div class="box preview">
+      <div class="box-title">MOC <i class="fa fa-users"/></i></div>
+      <div class="box-preview">
+        Come meet our wonderful Moot Organising Committee (MOC).
       </div>
     </div>
-    <div class="box">
-      <div class="title">Contact Us <i class="fa fa-at"/></i></div>
-      <div class="preview">
+    <div class="box preview">
+      <div class="box-title">Contact Us <i class="fa fa-at"/></i></div>
+      <div class="box-preview">
         If you need to contact us for any reason.
       </div>
     </div>
   </div>
-  <div class="boxes">
+  <div class="box-set">
     <a class="linkbox" href="https://www.facebook.com/EuroMoot2018/" target="_blank" title="EuroMoot on Facebook">Facebook <i class="fa fa-facebook"></i></a>
     <a class="linkbox" title="EuroMoot on Snapchat">Snapchat <i class="fa fa-snapchat"></i></a>
     <a class="linkbox" href="https://www.instagram.com/EuroMoot2018/" target="_blank" title="EuroMoot on Instagram">Instagram <i class="fa fa-instagram"></i></a>
