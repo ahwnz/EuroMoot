@@ -50,7 +50,7 @@ body {
 .box {
   width: 100%;
   border-radius: @box-border-radius;
-  background-color: rgba(255,255,255, 0.75);
+  background-color: rgba(255,255,255, 0.8);
 
   .box-title {
     .box-header;
@@ -136,16 +136,16 @@ body {
   .box-set { width: @break3; padding: 0 @box-margin-m; }
   .scout-bar { width: @break3 - 4 * @box-margin-m; }
 
-  .box, .linkbox { margin: @box-margin-l; }
-  .box.preview, .linkbox { width: @box-width-m; }
+  .box, .linkbox { margin: @box-margin-m; }
+  .box.preview, .linkbox { width: @box-width-l; }
 }
 
 @media screen and (max-width: @break3) {
   .box-set { width: @break4; padding: 0 @box-margin-s; }
   .scout-bar { width: @break4 - 4 * @box-margin-s; }
 
-  .box, .linkbox { margin: @box-margin-m; }
-  .box.preview, .linkbox { width: @box-width-s; }
+  .box, .linkbox { margin: @box-margin-s; }
+  .box.preview, .linkbox { width: @box-width-m; }
 }
 
 @media screen and (max-width: @break4) {

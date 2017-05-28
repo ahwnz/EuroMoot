@@ -129,7 +129,23 @@
       <div class="box-preview">
         Find the information you need.
       </div>
-      <div class="box-full">Search</div>
+      <div class="box-full">
+        <form>
+          <div class="row">
+            <div class="small-12 large-6 columns">
+              Use this search box to find what you need on this site.
+            </div>
+            <div class="small-12 large-6 columns">
+              <div class="input-group">
+                <input class="input-group-field" type="text"/>
+                <div class="input-group-button">
+                  <input type="submit" class="button" value="Search">
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
   <div class="box-set">
