@@ -3,16 +3,16 @@
   <defs>
     <style type="text/css">
         .background {
-          fill: #039;
+          fill: #fff;
         }
 
         #stars {
-          fill: #fc0;
+          fill: #000;
         }
 
         .text {
-          fill: #fc0;
-          font-family: Helvetica Neue;
+          fill: #000;
+          font-family: Kingthings Foundation;
           font-weight: 400;
         }
 
@@ -21,8 +21,8 @@
         }
 
         .fdl-path {
-          fill: #039;
-          stroke: #fc0;
+          fill: #fff;
+          stroke: #000;
           stroke-width: 5;
         }
 
@@ -32,7 +32,7 @@
         }
 
         .fdl-star {
-          fill:#fc0;
+          fill:#000;
         }
     </style>
     <g id="star">
@@ -47,8 +47,7 @@
       <use xlink:href="#a" transform="scale(-1,1)"/>
     </g>
   </defs>
-  <!-- <rect class="background" width="200" height="200"/> -->
-  <circle class="background" cx="100" cy="100" r="100"/>
+  <rect class="background" width="200" height="200"/>
   <g>
     <g id="stars" transform="translate(100,100)scale(6)rotate(-15)">
       <use id="topstar" xlink:href="#star" y="-15"/>
@@ -69,8 +68,7 @@
       <use id="right" xlink:href="#left" transform="scale(-1, 1)"/>
     </g>
 
-    <circle cx="100" cy="100" r="80" fill="none" stroke="#fc0" stroke-width="1" />
-    <!-- <circle cx="100" cy="100" r="50" fill="none" stroke="#fc0" stroke-width="1.5"/> -->
+    <circle cx="100" cy="100" r="80" fill="none" stroke="#000" stroke-width="1" />
   </g>
   <rect x="-75" y="-18" width="150" height="36" class="background" transform="translate(100,103)rotate(-15)"/>
   <g transform="translate(100, 100)rotate(-15)">
@@ -111,12 +109,12 @@
 
     <path id="toptext" d="M -60 0 A 60 60 180 0 1 60 0" fill="none"/>
     <path id="bottomtext" d="M -70 0 A 70 70 180 0 0 70 0" fill="none"/>
-    <text class="text" font-size="15" transform="rotate(15)">
+    <text class="text" font-size="15" transform="rotate(22)">
       <textPath xlink:href="#toptext">
         76th NZ ROVER MOOT
       </textPath>
     </text>
-    <text class="text" font-size="15" transform="rotate(-21)">
+    <text class="text" font-size="15" transform="rotate(-23)">
       <textPath xlink:href="#bottomtext">
         Ashburton, New Zealand
       </textPath>
