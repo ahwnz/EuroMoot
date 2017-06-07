@@ -44,6 +44,10 @@
       padding: 7px;
     }
 
+    a.linkbox#scouts {
+      background-color: #6a2c91;
+    }
+
     #content {
       background-color: white;
       min-height: 1104px;
@@ -56,12 +60,12 @@
 <body>
   <div id="container" class="row">
     <div class="column large-4">
-      <img src="/logos/euro-logo6-kingthings.png"/>
+      <img src="/logos/euro-logo6.png"/>
       <a class="linkbox">News <i class="fa fa-newspaper-o"></i></a>
       <a class="linkbox">What? <i class="fa fa-question"></i></a>
       <a class="linkbox">When? <i class="fa fa-clock-o"></i></a>
       <a class="linkbox">Where? <i class="fa fa-map-marker"></i></a>
-      <a class="linkbox">Themes <i class="fa fa-empire"/></i></a>
+      <a class="linkbox">Themes <i class="fa fa-eur"/></i></a>
       <a class="linkbox">Tours <i class="fa fa-map-signs"/></i></a>
       <a class="linkbox">Merchandise <i class="fa fa-shopping-cart"/></i></a>
       <a class="linkbox">Trophies <i class="fa fa-trophy"/></i></a>
@@ -69,6 +73,7 @@
       <a class="linkbox">Contact Us <i class="fa fa-at"/></i></a>
       <a class="linkbox">Facebook <i class="fa fa-facebook"/></i></a>
       <a class="linkbox">Instagram <i class="fa fa-instagram"/></i></a>
+      <a class="linkbox scouts"></a>
     </div>
     <div id="content" class="column large-8" ></div>
   </div>

@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="logo-container">
-    <img class="logo" src="/logos/euro-logo6-kingthings.png" alt="EuroMoot Logo"/>
+    <img class="logo" src="/logos/euro-logo6.png" alt="EuroMoot Logo"/>
   </div>
   <div class="box-set">
     <div class="box preview">
@@ -28,7 +28,7 @@
       </div>
       <div class="box-full">News</div>
     </div>
-    <div class="box preview">
+    <div class="box preview" id="what">
       <div class="box-title">What?
         <span class="icon box-icon"><i class="fa fa-question"/></i></span>
         <a class="icon close" title="Close Box"><i class="fa fa-times"></i></a>
@@ -60,7 +60,7 @@
       </div>
       <div class="box-full">Where?</div>
     </div>
-    <div class="box preview">
+    <div class="box preview" id="themes">
       <div class="box-title">Themes
         <span class="icon box-icon"><i class="fa fa-empire"/></i></span>
         <a class="icon close" title="Close Box"><i class="fa fa-times"></i></a>
