@@ -42,12 +42,15 @@ nav.menu {
 }
 .display {
   width: 100%;
-  min-height: 400px;
-  background-color: white;
+  min-height: 200px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
 }
 .scout-bar {
   height: 63px;
   background-color: #6a2c91;
+  border-radius: 5px;
 }
 .scout-bar a#scout-logo {
   display: inline-block;
@@ -55,11 +58,14 @@ nav.menu {
   width: 200px;
 }
 /* General Text Styling */
-h3 {
-  font-size: 26px;
-}
 .euromoot {
   font-family: "Kingthings Foundation";
+}
+h2 {
+  font-family: "Kingthings Foundation";
+}
+h3 {
+  font-size: 26px;
 }
 /* News Styling */
 .news-item h3 > .news-date {

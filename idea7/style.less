@@ -55,13 +55,16 @@ nav.menu {
 
 .display {
   width: 100%;
-  min-height: 400px;
-  background-color: white;
+  min-height: 200px;
+  border-radius: @box-border-radius;
+  background-color: rgba(255,255,255, 0.9);
+  padding: 15px;
 }
 
 .scout-bar {
   height: 63px;
   background-color: @scout-purple;
+  border-radius: @box-border-radius;
 
   a#scout-logo {
     display: inline-block;
@@ -73,10 +76,10 @@ nav.menu {
 
 /* General Text Styling */
 
-h3 { font-size: 26px;  }
-
 .euromoot { font-family: "Kingthings Foundation"; }
 
+h2 { .euromoot; }
+h3 { font-size: 26px; }
 
 /* News Styling */
 
