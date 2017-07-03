@@ -18,6 +18,7 @@
         </select>
       </div>
     </div>
+  </div>
   <div id="tour-list">
     <div class="tour" data-name="Hot Air Ballooning" data-price="300" data-fitness="2">
       <h3>
