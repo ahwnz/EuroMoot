@@ -95,15 +95,14 @@ body {
 
 
 .scout-bar {
-  height: 84px;
-  margin: 20px auto -5px auto;
+  height: 63px;
+  margin: 20px auto 0 auto;
   background-color: @scout-purple;
 
   a#scout-logo {
     display: inline-block;
-    margin: -5px 0;
     float: right;
-    width: 300px;
+    width: 200px;
   }
 }
 
@@ -214,8 +213,13 @@ h3 { font-size: 26px;  }
   .logo-container { width: 100%; }
 }
 
+@media screen and (max-aspect-ratio: 14/10) {
+  #background { width: 1400px; }
+}
+
+
 @media print {
-  #background, .box.preview, .linkbox, .icon, .icon.close { display: none !important; }
+  #background, .box.preview, .icon, .icon.close { display: none !important; }
 
   h2 { font-size: 32px; }
 

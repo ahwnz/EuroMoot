@@ -1,3 +1,7 @@
 #!/bin/bash
 
-inkscape -e $1.png --export-background-opacity=0 -w $2 -h $2 $1.svg
+name=$1
+width=$2
+height=${3-$2}
+
+inkscape -e $name.png --export-background-opacity=0 -w $width -h $height $name.svg

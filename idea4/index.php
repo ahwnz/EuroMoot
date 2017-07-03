@@ -18,22 +18,37 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+  <meta property="og:url"           content="http://euromoot.com/idea4/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="EuroMoot" />
+  <meta property="og:description"   content="The 76th NZ Rover Moot" />
+  <meta property="og:image"         content="http://euromoot.com/logos/euro-logo6-round.png" />
+
   <title>EuroMoot</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css"/>
   <link rel="stylesheet" href="/idea3/font-awesome-4.7.0/css/font-awesome.css"/>
-  <link rel="stylesheet" href="/idea4/output-v1.css"/>
+  <link rel="stylesheet" href="/idea4/output-v3.css"/>
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
   <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
 </head>
 <body>
-  <div id="background"><img src="/idea4/euro-lights.jpg"/></div>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="logo-container">
     <div id="logo">
       <img src="/logos/euro-<?=$logo?>.png" alt="EuroMoot Logo"/>
     </div>
   </div>
+  <div id="background"><img src="/idea4/euro-lights.jpg"/></div>
   <div class="box-set">
     <div class="box preview" id="news" title="News">
       <h2 class="box-title">News
@@ -47,7 +62,7 @@
         <div class="news-item">
           <h3>
             Moot Website Released
-            <span class="news-date">12 June 2017</span>
+            <span class="news-date">23 June 2017</span>
           </h3>
           <p>
             The EuroMoot website is released to the public.
@@ -117,6 +132,7 @@
           Young Leaders under 26 in both Scouting and Guiding. We also welcome international
           participants, as Rovers or Young Leaders (under 26) in their home association.
         </p>
+        <div class="fb-share-button" data-href="http://euromoot.com/idea4/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Feuromoot.com%2Fidea4%2F&amp;src=sdkpreparse">Share</a></div>
       </div>
     </div>
     <div class="box preview" id="when" title="When is Moot?">
@@ -282,9 +298,58 @@
       <div class="box-preview">
         Come meet our wonderful Moot Organising Committee (MOC).
       </div>
-      <div class="box-full">MOC</div>
+      <div class="box-full">
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Caitlyn Wildey - MOC Chair</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Brendan Herries - Finance</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Hilary Wilson - Admininstration</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Nathan Amai - Site, Services and Environment</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Alex Westphal (BFM) - Health, Safety and Risk</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Maria Boot (Boots) - Bar</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Georgie Holdaway - Catering</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Cam Harding - Transport and Logistics</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Jess McLean - Off-site Programme (Tours)</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Thomas Booten - On-site Programme</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Saz Mathers - Publicity and Marketing</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-8 columns"><h3>Matt Street - Service</h3></div>
+          <div class="small-12 large-4 columns"></div>
+        </div>
+      </div>
     </div>
-    <div class="box preview" id="contact" title="Contact Us">
+    <!-- <div class="box preview" id="contact" title="Contact Us">
       <h2 class="box-title">Contact Us
         <span class="icon box-icon"><i class="fa fa-at"/></i></span>
         <a class="icon close" title="Close Box"><i class="fa fa-times"></i></a>
@@ -293,7 +358,7 @@
         If you need to contact us for any reason.
       </div>
       <div class="box-full">Contact Us</div>
-    </div>
+    </div> -->
     <div class="box preview" id="search" title = "Search">
       <h2 class="box-title">Search
         <span class="icon box-icon"><i class="fa fa-search"/></i></span>
@@ -322,11 +387,11 @@
     </div>
   </div>
   <div class="box-set">
+    <a class="linkbox" href="mailto:info@euromoot.com" target="_blank" title="EuroMoot Email">
+      Email <span class="icon"><i class="fa fa-at"></i></span>
+    </a>
     <a class="linkbox" href="https://www.facebook.com/EuroMoot2018/" target="_blank" title="EuroMoot on Facebook">
       Facebook <span class="icon"><i class="fa fa-facebook"></i></span>
-    </a>
-    <a class="linkbox" title="EuroMoot on Snapchat">
-      Snapchat <span class="icon"><i class="fa fa-snapchat"></i></span>
     </a>
     <a class="linkbox" href="https://www.instagram.com/EuroMoot2018/" target="_blank" title="EuroMoot on Instagram">
       Instagram <span class="icon"><i class="fa fa-instagram"></i></span>
@@ -410,10 +475,10 @@
             if(!$(box).hasClass("preview")) openBox(box, index);
           });
         }
-        sizeBackground();
+        //sizeBackground();
       });
       checkWidth();
-      sizeBackground();
+      //sizeBackground();
 
       $(window).on('hashchange', loadHash);
       loadHash();

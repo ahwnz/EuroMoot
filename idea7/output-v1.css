@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Kingthings Foundation";
+  src: url('Kingthings_Foundation.ttf');
+}
+body {
+  background-color: #02001B;
+}
+#background {
+  position: fixed;
+  top: 0;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+.logo-container {
+  width: 400px;
+  margin: 20px auto;
+}
+.logo-container .logo-bw {
+  z-index: -20;
+}
+nav.menu {
+  margin: 0 auto;
+}
+.linkbox {
+  padding: 5px 10px;
+  font-size: 28px;
+  font-family: "Kingthings Foundation";
+  background-color: #fc0;
+  color: #039;
+  border-radius: 5px;
+}
+.linkbox .icon {
+  margin: -10px;
+  padding: 10px 20px;
+  float: right;
+  color: #039;
+}
+.linkbox .icon.close:hover {
+  color: steelblue;
+}
+.display {
+  width: 100%;
+  min-height: 400px;
+  background-color: white;
+}
+.scout-bar {
+  height: 63px;
+  background-color: #6a2c91;
+}
+.scout-bar a#scout-logo {
+  display: inline-block;
+  float: right;
+  width: 200px;
+}
+/* General Text Styling */
+h3 {
+  font-size: 26px;
+}
+.euromoot {
+  font-family: "Kingthings Foundation";
+}
+/* News Styling */
+.news-item h3 > .news-date {
+  float: right;
+  color: #666;
+}
+.news-item:not(:first-child) {
+  border-top: 1px solid #BBB;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+/* Tours Styling */
+#tour-list {
+  padding: 10px;
+}
+#tour-list .tour h3 > .price,
+#tour-list .tour h3 > .fitness {
+  margin-left: 20px;
+  color: #666;
+}
+@media screen and (max-width: 400px) {
+  .logo-container {
+    width: 100%;
+  }
+}
+@media print {
+  #background,
+  .icon,
+  .icon.close {
+    display: none !important;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  #logo img {
+    display: none;
+  }
+  #logo:after {
+    content: url("/logos/euro-logo6-bw.png");
+  }
+  .logo-container {
+    width: 300px;
+  }
+  #scout-logo img {
+    display: none;
+  }
+  #scout-logo:after {
+    content: url("/logos/logo-scouts-bw.png");
+  }
+}

@@ -71,7 +71,6 @@
 
     <circle cx="100" cy="100" r="80" fill="none" stroke="#fc0" stroke-width="1" />
   </g>
-  <rect x="-75" y="-18" width="150" height="36" class="background" transform="translate(100,103)rotate(-15)"/>
   <g transform="translate(100, 100)rotate(-15)">
     <g transform="translate(-23.2,-56)scale(0.2,0.2)">
     	<path

@@ -115,15 +115,14 @@ body {
   color: steelblue;
 }
 .scout-bar {
-  height: 84px;
-  margin: 20px auto -5px auto;
+  height: 63px;
+  margin: 20px auto 0 auto;
   background-color: #6a2c91;
 }
 .scout-bar a#scout-logo {
   display: inline-block;
-  margin: -5px 0;
   float: right;
-  width: 300px;
+  width: 200px;
 }
 /* General Text Styling */
 h3 {
@@ -260,10 +259,14 @@ h3 {
     width: 100%;
   }
 }
+@media screen and (max-aspect-ratio: 14/10) {
+  #background {
+    width: 1400px;
+  }
+}
 @media print {
   #background,
   .box.preview,
-  .linkbox,
   .icon,
   .icon.close {
     display: none !important;
