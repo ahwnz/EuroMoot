@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Interactive EuroMoot Logo</title>
   <style>
+  @font-face {
+    font-family: "Kingthings Foundation";
+    src: url('Kingthings_Foundation.ttf');
+  }
   * {
     box-sizing: border-box;
   }
@@ -57,7 +61,7 @@
 
           .text {
             fill: #fc0;
-            font-family: Helvetica Neue;
+            font-family: Kingthings Foundation;
             font-weight: 400;
           }
 
@@ -139,12 +143,12 @@
 
       <path id="toptext" d="M -60 0 A 60 60 180 0 1 60 0" fill="none"/>
       <path id="bottomtext" d="M -70 0 A 70 70 180 0 0 70 0" fill="none"/>
-      <text class="text" font-size="15" transform="rotate(15)">
+      <text class="text" font-size="15" transform="rotate(22)">
         <textPath href="#toptext">
           76th NZ ROVER MOOT
         </textPath>
       </text>
-      <text class="text" font-size="15" transform="rotate(-21)">
+      <text class="text" font-size="15" transform="rotate(-23)">
         <textPath href="#bottomtext">
           Ashburton, New Zealand
         </textPath>
@@ -156,7 +160,7 @@
   <script>
     var crews = [
       {name: "Aurora", location: "Invercargill" },
-      {name: "Avon Cosgrove", location: "Christchurch" },
+      {name: "Avon Cossgrove", location: "Christchurch" },
       {name: "Bays", location: "Auckland" },
       {name: "Deans", location: "Christchurch"},
       {name: "Domain", location: "Christchurch" },

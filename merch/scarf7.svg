@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   viewBox="0 0 200 100">
+  <defs id="defs3159">
+    <g id="star">
+      <g id="c">
+        <path id="t" d="M0,0v1h0.5z" transform="translate(0,-1)rotate(18)"/>
+        <use xlink:href="#t" transform="scale(-1,1)"/>
+      </g>
+      <g id="a">
+        <use xlink:href="#c" transform="rotate(72)"/>
+        <use xlink:href="#c" transform="rotate(144)"/>
+      </g>
+      <use xlink:href="#a" transform="scale(-1,1)"/>
+    </g>
+    <g id="stars">>
+      <use xlink:href="#star" transform="translate(12.5,5)scale(3)"/>
+      <use xlink:href="#star" transform="translate(20,12.5)scale(3)"/>
+      <use xlink:href="#star" transform="translate(27.5,20)scale(3)"/>
+      <use xlink:href="#star" transform="translate(35,27.5)scale(3)"/>
+      <use xlink:href="#star" transform="translate(42.5,35)scale(3)"/>
+      <use xlink:href="#star" transform="translate(50,42.5)scale(3)"/>
+      <use xlink:href="#star" transform="translate(57.5,50)scale(3)"/>
+      <use xlink:href="#star" transform="translate(65,57.5)scale(3)"/>
+      <use xlink:href="#star" transform="translate(72.5,65)scale(3)"/>
+      <use xlink:href="#star" transform="translate(80,72.5)scale(3)"/>
+      <use xlink:href="#star" transform="translate(87.5,80)scale(3)"/>
+      <use xlink:href="#star" transform="translate(95,87.5)scale(3)"/>
+    </g>
+  </defs>
+  <path d="M0,0H200L100,100Z" fill="#039"/>
+  <!-- <rect width="606" height="606" fill="#039"/> -->
+  <g clip-path="url(#mapclip)">
+
+</g>
+<path id="ribbon" d="M0,0L100,100L200,0H185L100,85L15,0Z" fill="#fc0"/>
+<use xlink:href="#stars" fill="#ffffff"/>
+<use xlink:href="#stars" transform="translate(200,0)scale(-1,1)" fill="#ffffff"/>
+</svg>

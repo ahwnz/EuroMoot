@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 200 100">
+  <desc>Euro Moot Logo</desc>
+  <defs>
+    <style type="text/css">
+        .background {
+          fill: #1A191F;
+        }
+
+        #stars {
+          fill: #fc0;
+        }
+
+        .text {
+          fill: #fc0;
+          font-family: Kingthings Foundation;
+          font-weight: 400;
+        }
+
+        .title {
+          font-weight: 500;
+        }
+
+    </style>
+  </defs>
+  <rect class="background" width="200" height="100"/>
+
+    <text class="text title" text-anchor="middle" font-size="36" transform="translate(100, 45)">EUROMOOT</text>
+    <text class="text" text-anchor="middle" font-size="36" transform="translate(100, 80)">MOC 2018</text>
+</svg>
