@@ -3,7 +3,7 @@
   $page_url = "tours";
   include '_above.php';
 ?>
-<div id="tours" class="display">
+<div id="tours">
   <h2>Tours</h2>
   <div id="tours-sort">
     <div class="grid-x grid-padding-x">

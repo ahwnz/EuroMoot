@@ -3,7 +3,7 @@
   $page_url = "where";
   include '_above.php';
 ?>
-<div id="where" class="display">
+<div id="where">
 
   <div class="grid-x grid-padding-x grid-padding-y">
     <div class="small-12 large-6 cell">

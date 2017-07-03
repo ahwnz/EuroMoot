@@ -3,7 +3,7 @@
   $page_url = "theme";
   include '_above.php';
 ?>
-<div id="theme" class="display">
+<div id="theme">
   <h2>The Theme</h2>
   <p>
     The overall theme of the NZ Rover Moot 2018 is <span class="euromoot">EUROMOOT</span>.

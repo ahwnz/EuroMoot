@@ -28,10 +28,6 @@ body {
   .logo-bw { z-index: -20; }
 }
 
-nav.menu {
-  margin: 0 auto;
-}
-
 .linkbox {
   padding: 5px 10px;
   font-size: 28px;
@@ -53,9 +49,8 @@ nav.menu {
   border-radius: @box-border-radius;
 }
 
-.display {
+#display {
   width: 100%;
-  min-height: 200px;
   border-radius: @box-border-radius;
   background-color: rgba(255,255,255, 0.9);
   padding: 15px;
@@ -81,19 +76,18 @@ nav.menu {
 h2 { .euromoot; }
 h3 { font-size: 26px; }
 
+
 /* News Styling */
 
-.news-item {
-  h3 > .news-date {
-    float: right;
-    color: #666;
-  }
+.news-header {
+  font-size: 2.5rem;
 
-  &:not(:first-child) {
-    border-top: 1px solid #BBB;
-    margin-top: 10px;
-    padding-top: 10px;
-  }
+  .news-name { color: black; }
+  .news-date { color: #666; }
+}
+
+.news-link:hover {
+  text-decoration: underline;
 }
 
 
@@ -114,11 +108,13 @@ h3 { font-size: 26px; }
   .logo-container { width: 100%; }
 }
 
+@media screen and (max-aspect-ratio: 14/10) {
+  #background { width: 1400px; }
+}
+
 
 @media print {
-  #background, .icon, .icon.close { display: none !important; }
-
-  h2 { font-size: 32px; }
+  #background, nav.menu, div.fb-share-button { display: none !important; }
 
   #logo {
     img { display: none; }

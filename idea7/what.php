@@ -1,9 +1,9 @@
 <?php
-  $page_title = "What";
+  $page_title = "What is Moot?";
   $page_url = "what";
   include '_above.php';
 ?>
-<div id="what" class="display">
+<div id="what">
   <h2>What is Moot?</h2>
   <p>
     A 'moot' is a gathering of Rovers. The term was first coined by Lord Robert
@@ -48,6 +48,6 @@
     Young Leaders under 26 in both Scouting and Guiding. We also welcome international
     participants, as Rovers or Young Leaders (under 26) in their home association.
   </p>
-  <div class="fb-share-button" data-href="http://euromoot.com/idea7/what" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Feuromoot.com%2Fidea7%2Fwhat&amp;src=sdkpreparse">Share</a></div>
+  <div class="fb-share-button" data-href="http://euromoot.com/idea7/what" data-layout="button"></div>
 </div>
 <?php include '_below.php'; ?>

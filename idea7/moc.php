@@ -3,7 +3,7 @@
   $page_url = "moc";
   include '_above.php';
 ?>
-<div id="moc" class="display">
+<div id="moc">
   <h2>Moot Organising Committee (MOC)</h2>
   <div class="grid-x grid-padding-x grid-padding-y">
     <div class="small-12 large-8 cell">

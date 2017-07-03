@@ -3,7 +3,7 @@
   $page_url = "merch";
   include '_above.php';
 ?>
-<div id="merch" class="display">
+<div id="merch">
   <h2>Merchandise</h2>
   <p>Browse our selection of exclusive moot merchandise.</p>
 </div>

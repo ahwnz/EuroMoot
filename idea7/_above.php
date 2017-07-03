@@ -40,3 +40,4 @@
     <?php include '_menu.php' ?>
     <div class="grid-x grid-padding-x grid-padding-y">
       <div class="small-12 cell">
+        <div id="display">

@@ -1,9 +1,9 @@
 <?php
-  $page_title = "When";
+  $page_title = "When is Moot?";
   $page_url = "when";
   include '_above.php';
 ?>
-<div id="when" class="display">
+<div id="when">
   <?php
     date_default_timezone_set('Pacific/Auckland');
     $start_date = strtotime("2018-03-29");
@@ -15,5 +15,6 @@
     <span class="euromoot">EUROMOOT</span> will run over Easter weekend 2018. Starting
     Thursday March 29th and finishing on Monday April 2nd. It's only <?=$days?> days away.
   </p>
+  <div class="fb-share-button" data-href="http://euromoot.com/idea7/when" data-layout="button"></div>
 </div>
 <?php include '_below.php'; ?>
