@@ -12,7 +12,7 @@
   ?>
   <h2>When is Moot?</h2>
   <p>
-    <span class="euromoot">EUROMOOT</span> will run over Easter weekend 2018. Starting
+    The 76th NZ Rover Moot (<span class="euromoot">EUROMOOT</span>) will run over Easter weekend 2018. Starting
     Thursday March 29th and finishing on Monday April 2nd. It's only <?=$days?> days away.
   </p>
   <div class="fb-share-button" data-href="http://euromoot.com<?=$prefix?>/when" data-layout="button"></div>

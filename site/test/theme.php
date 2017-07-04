@@ -11,13 +11,13 @@
   </p>
   <div class="grid-x grid-padding-x grid-padding-y">
     <div class="small-12 large-6 cell">
-      <h3>Friday Night</h3>
+      <h3>Friday Night: Oktoberfest</h3>
     </div>
     <div class="small-12 large-6 cell">
       <img src="/images/oktoberfest.jpg"/>
     </div>
     <div class="small-12 large-6 cell">
-      <h3>Saturday Night</h3>
+      <h3>Saturday Night: Eurovision</h3>
     </div>
     <div class="small-12 large-6 cell">
       <img src="/images/eurovision.jpg"/>
