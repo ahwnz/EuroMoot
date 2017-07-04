@@ -16,10 +16,12 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.0/css/foundation.min.css"/>
   <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css"/>
-  <link rel="stylesheet" href="<?=$prefix?>/output-v1.css"/>
+  <link rel="stylesheet" href="<?=$prefix?>/output-v2.css"/>
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
   <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+
+  <link rel="icon" sizes="192x192" href="/logos/euromoot-logo(192).png">
 </head>
 <body>
   <div id="fb-root"></div>

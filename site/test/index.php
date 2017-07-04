@@ -35,4 +35,5 @@
 
   ?>
 </div>
+<script> window.noScroll = true; </script>
 <?php include '_below.php'; ?>

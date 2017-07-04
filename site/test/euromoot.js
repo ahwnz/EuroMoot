@@ -1,8 +1,10 @@
 $(function() {
 
   // Make sure the display is visible
-  var displayY = $("#display").offset().top;
-  if(displayY > $(window).height()) $(window).scrollTop(displayY-15);
+  if(!noScroll) {
+    var displayY = $("#display").offset().top;
+    if(displayY > $(window).height()) $(window).scrollTop(displayY-15);
+  }
 
   // Tours Sorting
   $("#tours-sort").change(function() {
