@@ -1,0 +1,134 @@
+// Colours
+@euro-blue: #039;
+@euro-gold: #fc0;
+@scout-purple: #6a2c91;
+@text-highlight: steelblue;
+
+@box-border-radius: 5px;
+
+@font-face {
+  font-family: "Kingthings Foundation";
+  src: url('Kingthings_Foundation.ttf');
+}
+
+body {
+  background-color: #02001B;
+}
+
+#background {
+  position: fixed; top: 0; z-index: -10;
+  width: 100%; height: 100%;
+  opacity: 0.8;
+}
+
+.logo-container {
+  width: 400px;
+  margin: 20px auto;
+
+  .logo-bw { z-index: -20; }
+}
+
+.linkbox {
+  padding: 5px 10px;
+  font-size: 28px;
+  font-family: "Kingthings Foundation";
+
+  background-color: @euro-gold;
+  color: @euro-blue;
+
+  .icon {
+      margin: -10px;
+      padding: 10px 20px;
+      float: right;
+      color: @euro-blue;
+
+      &.close:hover {
+        color: @text-highlight;
+      }
+  }
+  border-radius: @box-border-radius;
+}
+
+#display {
+  width: 100%;
+  border-radius: @box-border-radius;
+  background-color: rgba(255,255,255, 0.9);
+  padding: 15px;
+}
+
+.scout-bar {
+  height: 63px;
+  background-color: @scout-purple;
+  border-radius: @box-border-radius;
+
+  a#scout-logo {
+    display: inline-block;
+    float: right;
+    width: 200px;
+  }
+}
+
+
+/* General Text Styling */
+
+.euromoot { font-family: "Kingthings Foundation"; }
+
+h2 { .euromoot; }
+
+
+/* News Styling */
+
+.news-header {
+  font-size: 2.5rem;
+
+  .news-name { color: black; }
+  .news-date { color: #666; }
+}
+
+.news-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Tours Styling */
+
+#tour-list {
+  padding: 10px;
+
+  .tour {
+    h3 > .price, h3 > .fitness {
+      margin-left: 20px;
+      color: #666;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo-container { width: 100%; }
+}
+
+@media screen and (max-aspect-ratio: 14/10) {
+  #background { width: 1400px; }
+}
+
+
+@media print {
+  #background, nav.menu, div.fb-share-button { display: none !important; }
+
+  #logo {
+    img { display: none; }
+
+    &:after {
+      content: url("/logos/euromoot-logo-bw(400).png");
+    }
+  }
+
+  .logo-container { width: 300px; }
+  #scout-logo {
+    img { display: none; }
+
+    &:after {
+      content: url("/logos/logo-scouts-bw.png");
+    }
+  }
+}
