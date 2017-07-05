@@ -4,41 +4,54 @@
   include '_above.php';
 ?>
 <div id="tours">
-  <h2>Tours</h2>
-  <div id="tours-sort">
-    <div class="grid-x grid-padding-x">
-      <div class="small-3 cell">
-        <label for="middle-label" class="text-right middle">Sort By</label>
-      </div>
-      <div class="small-4 cell">
-        <select id="tours-sort">
-          <option value="name">Name</option>
-          <option value="price">Price</option>
-          <option value="fitness">Fitness Level</option>
-        </select>
-      </div>
+  <div id="tours-header" class="grid-x grid-padding-x">
+    <div class="small-4 cell">
+      <h2>Tours</h2>
+    </div>
+    <div class="small-4 cell">
+      <select id="tours-sort">
+        <option value="" selected>- Sort By -</option>
+        <option value="name">Name</option>
+        <option value="price">Price</option>
+        <option value="fitness">Fitness Level</option>
+      </select>
     </div>
   </div>
   <div id="tour-list">
-    <div class="tour" data-name="Hot Air Ballooning" data-price="300" data-fitness="2">
-      <h3>
-        Hot Air Ballooning
-        <span class="price">$300</span>
-        <span class="fitness">Low</span>
+    <div class="tour grid-x grid-padding-x grid-padding-y" data-name="Hot Air Ballooning" data-price="300" data-fitness="2">
+      <div class="large-4 cell">
+        <h3>Hot Air Ballooning</h3>
+      </div>
+        <div class="large-3 cell">
+          <h3 class="price">Price: $300</h3>
+        </div>
+        <div class="large-3 cell">
+          <h3 class="fitness">Fitness: Low</h3>
+        </div>
       </h3>
     </div>
-    <div class="tour" data-name="Rafting" data-price="200" data-fitness="3">
-      <h3>
-        Rafting
-        <span class="price">$200</span>
-        <span class="fitness">Moderate</span>
+    <div class="tour grid-x grid-padding-x grid-padding-y" data-name="Rafting" data-price="200" data-fitness="3">
+      <div class="large-4 cell">
+        <h3>Rafting</h3>
+      </div>
+        <div class="large-3 cell">
+          <h3 class="price">Price: $200</h3>
+        </div>
+        <div class="large-3 cell">
+          <h3 class="fitness">Fitness: Moderate</h3>
+        </div>
       </h3>
     </div>
-    <div class="tour" data-name="Wine Tour" data-price="100" data-fitness="2">
-      <h3>
-        Wine Tour
-        <span class="price">$100</span>
-        <span class="fitness">Low</span>
+    <div class="tour grid-x grid-padding-x grid-padding-y" data-name="Wine Tour" data-price="100" data-fitness="2">
+      <div class="large-4 cell">
+        <h3>Wine Tour</h3>
+      </div>
+        <div class="large-3 cell">
+          <h3 class="price">Price: $100</h3>
+        </div>
+        <div class="large-3 cell">
+          <h3 class="fitness">Fitness: Low</h3>
+        </div>
       </h3>
     </div>
   </div>

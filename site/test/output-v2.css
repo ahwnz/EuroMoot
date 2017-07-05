@@ -73,12 +73,8 @@ h2 {
   text-decoration: underline;
 }
 /* Tours Styling */
-#tour-list {
-  padding: 10px;
-}
-#tour-list .tour h3 > .price,
-#tour-list .tour h3 > .fitness {
-  margin-left: 20px;
+#tour-list .tour .price,
+#tour-list .tour .fitness {
   color: #666;
 }
 @media screen and (max-width: 400px) {
