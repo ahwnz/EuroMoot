@@ -10,7 +10,7 @@
       <h3>Caitlyn Wildey - MOC Chair</h3>
     </div>
     <div class="small-12 medium-6 large-4 cell">
-      <img src="/moc/caitlyn.jpg" alt="Caitlyn Wildey"/>
+      <img src="/moc/caitlyn2.jpg" alt="Caitlyn Wildey"/>
     </div>
 
     <div class="small-12 medium-6 large-8 cell">
@@ -31,7 +31,7 @@
       <h3>Nathan Amai - Site, Services and Environment</h3>
     </div>
     <div class="small-12 medium-6 large-4 cell">
-      <img src="/moc/nathan.jpg" alt=""/>
+      <img src="/moc/nathan2.jpg" alt=""/>
     </div>
 
     <div class="small-12 medium-6 large-8 cell">
