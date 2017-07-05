@@ -44,6 +44,11 @@
       </a>
     </div>
     <div class="small-12 medium-6 large-4 cell">
+      <a class="linkbox" href="<?=$prefix?>/sponsors.php">
+        Sponsors <span class="pull-right"><i class="fa fa-plus"></i></span>
+      </a>
+    </div>
+    <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/contact.php">
         Contact Us <span class="pull-right"><i class="fa fa-at"></i></span>
       </a>
