@@ -18,8 +18,8 @@
         <dd class="small-9 cell"><a href="http://www.facebook.com/EuroMoot2018">www.facebook.com/EuroMoot2018</a></dd>
         <dt class="small-3 cell">Instagram</dt>
         <dd class="small-9 cell"><a href="https://www.instagram.com/EuroMoot2018">www.instagram.com/EuroMoot2018</a></dd>
-        <dt class="small-3 cell">Post</dt>
-        <dd class="small-9 cell"></dd>
+        <!-- <dt class="small-3 cell">Post</dt>
+        <dd class="small-9 cell"></dd> -->
       </dl>
     </div>
     <div class="small-12 large-6 cell">

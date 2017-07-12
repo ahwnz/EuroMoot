@@ -77,7 +77,7 @@
     </div>
 
     <div class="small-12 medium-6 large-8 cell">
-      <h3>Saz Mathers - Publicity and Marketing</h3>
+      <h3>Saz Ashleigh - Publicity and Marketing</h3>
     </div>
     <div class="small-12 medium-6 large-4 cell">
       <img src="/moc/saz.jpg" alt=""/>

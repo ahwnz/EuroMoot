@@ -1,4 +1,4 @@
-<?php $prefix = "/test"; ?>
+<?php $prefix = ""; ?>
 <!DOCTYPE html>
 <html lang="en-nz">
 <head>

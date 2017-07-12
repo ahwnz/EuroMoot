@@ -1,8 +1,11 @@
 <nav id="menu">
   <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="small-12 medium-6 large-4 cell">
-      <a class="linkbox" href="<?=$prefix?>/">News <span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
-    </div>
+
+    <!-- <div class="small-12 medium-6 large-4 cell">
+      <a class="linkbox" href="<?=$prefix?>/">
+        News <span class="pull-right"><i class="fa fa-newspaper-o"></i></span>
+      </a>
+    </div> -->
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/what.php">
         What is Moot? <span class="pull-right"><i class="fa fa-question"></i></span>
@@ -18,31 +21,31 @@
         Where is Moot? <span class="pull-right"><i class="fa fa-map-marker"></i></span>
       </a>
     </div>
-    <div class="small-12 medium-6 large-4 cell">
+    <!-- <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox"  href="<?=$prefix?>/theme.php">
         The Theme <span class="pull-right"><i class="fa fa-euro"></i></span>
       </a>
-    </div>
-    <div class="small-12 medium-6 large-4 cell">
+    </div> -->
+    <!-- <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox"  href="<?=$prefix?>/tours.php">
         Tours <span class="pull-right"><i class="fa fa-map-signs"></i></span>
       </a>
-    </div>
-    <div class="small-12 medium-6 large-4 cell">
+    </div> -->
+    <!-- <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox"  href="<?=$prefix?>/merch.php">
         Merchandise <span class="pull-right"><i class="fa fa-shopping-cart"></i></span>
       </a>
-    </div>
+    </div> -->
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/trophies.php">
         Trophies <span class="pull-right"><i class="fa fa-trophy"></i></span>
       </a>
     </div>
-    <div class="small-12 medium-6 large-4 cell">
+    <!-- <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/moc.php">
         MOC <span class="pull-right"><i class="fa fa-users"></i></span>
       </a>
-    </div>
+    </div> -->
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/sponsors.php">
         Sponsors <span class="pull-right"><i class="fa fa-plus"></i></span>

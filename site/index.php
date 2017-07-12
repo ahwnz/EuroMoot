@@ -3,9 +3,10 @@
   $page_path = "";
   include '_above.php';
 ?>
+<!--
 <div id="news">
   <h2>EuroMoot News</h2>
-  <?php
+  <?php /*
     $month_names = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     $items = [];
 
@@ -31,9 +32,9 @@
       echo "<div class='small-12 medium-6 cell'><h3 class='news-date pull-right'>$date</h3></div>";
       echo "</a>";
     }
-
-
-  ?>
+   */?>
 </div>
 <script> window.noScroll = true; </script>
+-->
+<style> #display { display: none;} </style>
 <?php include '_below.php'; ?>
