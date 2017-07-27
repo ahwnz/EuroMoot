@@ -70,12 +70,59 @@ a.linkbox {
   }
 }
 
+#mobile-menu {
+  position: fixed;
+  z-index: 1000;
+  top: 0; width: 100%;
+  padding: 5px 10px;
+  font-size: 28px;
+
+  background-color: @euro-gold;
+  color: @euro-blue;
+
+  a#toggle-menu {
+    position: absolute;
+    color: @euro-blue;
+
+    i.fa-times { display: none; }
+  }
+
+  &.open {
+    height: 100%;
+    overflow-y: scroll;
+
+    a#toggle-menu {
+      i.fa-bars { display: none; }
+      i.fa-times { display: inline-block; }
+    }
+  }
+
+  .title {
+    text-align: center;
+    font-family: "Kingthings Foundation";
+  }
+
+  ul#menu-dropdown {
+    display: none;
+    list-style: none;
+    margin: 0;
+
+    li {
+      border-top: 0.5px solid @euro-blue;
+    }
+  }
+}
+
+#mobile-menu-spacer {
+  height: 52px;
+}
+
 
 /* General Text Styling */
 
 .euromoot { font-family: "Kingthings Foundation"; }
 
-h2 { .euromoot; }
+h1,h2 { .euromoot; }
 
 
 /* News Styling */

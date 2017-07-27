@@ -1,6 +1,6 @@
 <?php
   $page_title = "MOC";
-  $page_url = "moc";
+  $page_path = "moc";
   include '_above.php';
 ?>
 <div id="moc">

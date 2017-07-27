@@ -3,8 +3,13 @@ $(function() {
   // Make sure the display is visible
   if(!window.noScroll) {
     var displayY = $("#display").offset().top;
-    if(displayY > $(window).height()) $(window).scrollTop(displayY-15);
+    $(window).scrollTop(displayY-15);
   }
+
+  $("#toggle-menu").click(function() {
+    $("#menu-dropdown").slideToggle();
+    $("#mobile-menu").toggleClass("open");
+  });
 
   // Tours Sorting
   $("select#tours-sort").change(function() {
