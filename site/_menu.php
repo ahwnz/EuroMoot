@@ -41,14 +41,19 @@
         Trophies <span class="pull-right"><i class="fa fa-trophy"></i></span>
       </a>
     </div>
-    <!-- <div class="small-12 medium-6 large-4 cell">
+    <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/moc.php">
         MOC <span class="pull-right"><i class="fa fa-users"></i></span>
       </a>
-    </div> -->
+    </div>
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/sponsors.php">
         Sponsors <span class="pull-right"><i class="fa fa-plus"></i></span>
+      </a>
+    </div>
+    <div class="small-12 medium-6 large-4 cell">
+      <a class="linkbox" href="https://secure.leukaemia.net.nz/registrant/TeamFundraisingPage.aspx?teamID=101467">
+        Shave for a Cure <span class="pull-right"><i class="fa fa-scissors"></i></span>
       </a>
     </div>
     <div class="small-12 medium-6 large-4 cell">
@@ -117,11 +122,11 @@
         Sponsors <span class="pull-right"><i class="fa fa-plus fa-fw"></i></span>
       </a>
     </li>
-    <!-- <li>
+    <li>
       <a class="linkbox" href="<?=$prefix?>/moc.php">
         MOC <span class="pull-right"><i class="fa fa-users fa-fw"></i></span>
       </a>
-    </li> -->
+    </li>
     <li>
       <a class="linkbox" href="<?=$prefix?>/contact.php">
         Contact Us <span class="pull-right"><i class="fa fa-at fa-fw"></i></span>
