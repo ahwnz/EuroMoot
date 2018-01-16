@@ -44,7 +44,7 @@
     </div>
 
     <div class="small-12 medium-6 large-8 cell">
-      <h3>Hilary Wilson - Admininstration</h3>
+      <h3>Hilary Wilson - Administration</h3>
     </div>
     <div class="small-12 medium-6 large-4 cell">
 

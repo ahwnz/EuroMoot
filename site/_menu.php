@@ -26,11 +26,11 @@
         The Theme <span class="pull-right"><i class="fa fa-euro"></i></span>
       </a>
     </div> -->
-    <!-- <div class="small-12 medium-6 large-4 cell">
+    <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox"  href="<?=$prefix?>/tours.php">
         Tours <span class="pull-right"><i class="fa fa-map-signs"></i></span>
       </a>
-    </div> -->
+    </div>
     <!-- <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox"  href="<?=$prefix?>/merch.php">
         Merchandise <span class="pull-right"><i class="fa fa-shopping-cart"></i></span>
@@ -39,6 +39,11 @@
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/trophies.php">
         Trophies <span class="pull-right"><i class="fa fa-trophy"></i></span>
+      </a>
+    </div>
+    <div class="small-12 medium-6 large-4 cell">
+      <a class="linkbox" href="<?=$prefix?>/theme.php">
+        The Theme <span class="pull-right"><i class="fa fa-euro"></i></span>
       </a>
     </div>
     <div class="small-12 medium-6 large-4 cell">
@@ -51,11 +56,11 @@
         Sponsors <span class="pull-right"><i class="fa fa-plus"></i></span>
       </a>
     </div>
-    <div class="small-12 medium-6 large-4 cell">
+    <!-- <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="https://secure.leukaemia.net.nz/registrant/TeamFundraisingPage.aspx?teamID=101467">
         Shave for a Cure <span class="pull-right"><i class="fa fa-scissors"></i></span>
       </a>
-    </div>
+    </div> -->
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/contact.php">
         Contact Us <span class="pull-right"><i class="fa fa-at"></i></span>
@@ -106,8 +111,13 @@
       <a class="linkbox"  href="<?=$prefix?>/theme.php">
         The Theme <span class="pull-right"><i class="fa fa-euro fa-fw"></i></span>
       </a>
-    </li>
+    </li> -->
     <li>
+      <a class="linkbox"  href="<?=$prefix?>/tours.php">
+        Tours <span class="pull-right"><i class="fa fa-map-signs"></i></span>
+      </a>
+    </li>
+    <!--<li>
       <a class="linkbox"  href="<?=$prefix?>/merch.php">
         Merchandise <span class="pull-right"><i class="fa fa-shopping-cart fa-fw"></i></span>
       </a>
@@ -118,8 +128,8 @@
       </a>
     </li>
     <li>
-      <a class="linkbox" href="<?=$prefix?>/sponsors.php">
-        Sponsors <span class="pull-right"><i class="fa fa-plus fa-fw"></i></span>
+      <a class="linkbox" href="<?=$prefix?>/theme.php">
+        The Theme <span class="pull-right"><i class="fa fa-euro fa-fw"></i></span>
       </a>
     </li>
     <li>
@@ -127,6 +137,16 @@
         MOC <span class="pull-right"><i class="fa fa-users fa-fw"></i></span>
       </a>
     </li>
+    <li>
+      <a class="linkbox" href="<?=$prefix?>/sponsors.php">
+        Sponsors <span class="pull-right"><i class="fa fa-plus fa-fw"></i></span>
+      </a>
+    </li>
+    <!-- <li>
+      <a class="linkbox" href="https://secure.leukaemia.net.nz/registrant/TeamFundraisingPage.aspx?teamID=101467">
+        Shave for a Cure <span class="pull-right"><i class="fa fa-scissors"></i></span>
+      </a>
+    </li> -->
     <li>
       <a class="linkbox" href="<?=$prefix?>/contact.php">
         Contact Us <span class="pull-right"><i class="fa fa-at fa-fw"></i></span>

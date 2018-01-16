@@ -16,7 +16,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.0/css/foundation.min.css"/>
   <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css"/>
-  <link rel="stylesheet" href="<?=$prefix?>/output-v4.css"/>
+  <link rel="stylesheet" href="<?=$prefix?>/output-v5.css"/>
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
   <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
@@ -35,7 +35,7 @@
     } (document, 'script', 'facebook-jssdk'));
   </script>
   <div class="logo-container hide-for-small-only">
-    <div id="logo">
+    <div id="logo" class="rythm-bass">
       <img src="/logos/euromoot-logo-round(800).png" alt="EuroMoot Logo"/>
     </div>
   </div>

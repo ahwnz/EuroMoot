@@ -10,6 +10,12 @@
       <p>
         <span class="euromoot">EUROMOOT</span> will be held at Mania-O-Roto (MOR) Scout Park, Ashburton, New Zealand.
       </p>
+      <h3>Getting to Site</h3>
+      <p>
+        For those in the South Island, we recommend driving. If you're traveling fron further afield, flying into
+        Christchurch is the way to go. A shuttle will be provided (for a small fee) from Christchurch Airport to site.
+      </p>
+      <a href="https://www.google.com/flights/#search;t=CHC;d=2018-03-29;r=2018-04-02;ti=l0000-1800,t1400-2400;mc=e">Find Flights</a>
     </div>
     <div class="small-12 large-6 cell">
       <img src="/images/mor-logo.jpg" style="display: block; width: 211px; margin: 0 auto;"/>
