@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 200 100">
+  <defs>
+    <style type="text/css">
+      g#Legend text.title {
+        font-size: 12px;
+        font-family: "Kingthings Foundation";
+      }
+
+      text.number {
+        font-size: 5px;
+        font-family: "Kingthings Foundation";
+        font-weight: 500;
+      }
+
+      #Compass text {
+      font-size: 8px;
+      font-family: "Kingthings Foundation";
+      font-weight: 500;
+      }
+
+    </style>
+    <marker id="arrow" markerWidth="5" markerHeight="5" refX="0" refY="1.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,3 L4.5,1.5 z" fill="black" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="200" height="100" fill="white"/>
+  <g id="Legend" transform="translate(150)">
+    <!-- <rect x="0" y="0" width="50" height="100" stroke="black" stroke-width="0.5" fill="white"/> -->
+    <text class="title" text-anchor="middle" transform="translate(25, 12)">Site Map</text>
+
+    <path d="M0,0 H6" stroke="red" stroke-width="0.5" stroke-dasharray="2, 1" transform="translate(0, 19)"/>
+    <text font-size="4" transform="translate(7, 20)">MOR Park Boundary</text>
+
+    <text class="number" transform="translate(2, 28)">1</text>
+    <text font-size="4" transform="translate(7, 27.5)">Main Gate</text>
+
+    <text class="number" transform="translate(2, 35.5)">2</text>
+    <text font-size="4" transform="translate(7, 35)">MOC Office</text>
+
+    <text class="number" transform="translate(2, 43)">3</text>
+    <text font-size="4" transform="translate(7, 42.5)">Main Building</text>
+    <text font-size="4" transform="translate(10, 47.5)">Dinning Hall</text>
+    <text font-size="4" transform="translate(10, 52.5)">Briefing Room</text>
+    <text font-size="4" transform="translate(10, 57.5)">First Aid</text>
+
+    <text class="number" transform="translate(2, 65.5)">4</text>
+    <text font-size="4" transform="translate(7, 65)">Toilets &amp; Showers</text>
+
+    <text class="number" transform="translate(2, 73)">5</text>
+    <text font-size="4" transform="translate(7, 72.5)">Beer Garden</text>
+
+    <text class="number" transform="translate(2, 80.5)">6</text>
+    <text font-size="4" transform="translate(7, 80)">Pedestrian Bridge</text>
+
+    <text class="number" transform="translate(2, 88)">7</text>
+    <text font-size="4" transform="translate(7, 87.5)">Bar &amp; Entertainment</text>
+  </g>
+
+  <g id="Compass" transform="translate(120, 20)">
+    <path d="M0,0 H10" stroke="black" stroke-width="1" marker-end="url(#arrow)" transform="rotate(210)translate(5,0)"/>
+    <text text-anchor="middle" transform="translate(0, 2)">N</text>
+  </g>
+
+  <g id="Chalmers Ave" transform="translate(75, 0)">
+    <rect width="7" height="50"  stroke="#888" stroke-width="0.5" fill="#BBB"/>
+    <text text-anchor="middle" font-size="5" transform="translate(5, 25)rotate(-90)">Chalmers Ave</text>
+  </g>
+
+  <path id="SiteBoundary" d="M85,27 V95 H135 V46 L98,26 L94,33 Z" stroke="red" stroke-width="0.5" stroke-dasharray="2, 1" fill="white"/>
+
+  <g id="Driveway" transform="translate(87, 38)">
+    <path d="M0,0 L25,12 H40 V20 L17,16 L0, 5" stroke="#888" stroke-width="0.5" fill="#BBB"/>
+    <text text-anchor="middle" font-size="5" transform="translate(15, 12)rotate(23)">Driveway</text>
+  </g>
+
+  <g id="MainGate" transform="translate(83, 38)">
+    <rect width="4" height="5" stroke="black" stroke-width="0.5" fill="white"/>
+    <text class="number" text-anchor="middle" transform="translate(2, 4.5)">1</text>
+  </g>
+
+  <g id="MocOffice" transform="translate(125, 43)">
+    <rect width="7" height="5" stroke="black" stroke-width="0.5" fill="white" transform="rotate(28)"/>
+    <text class="number" text-anchor="middle" transform="translate(2, 5.7)">2</text>
+  </g>
+
+  <g id="MainBuilding" transform="translate(107, 55)">
+    <rect width="13" height="9" stroke="black" stroke-width="0.5" fill="white" transform="rotate(10)"/>
+    <text class="number" text-anchor="middle" transform="translate(5.5, 7)">3</text>
+  </g>
+
+  <g id="Toilets" transform="translate(98, 59)">
+    <rect width="5" height="5" stroke="black" stroke-width="0.5" fill="white" transform="rotate(15)"/>
+    <text class="number" text-anchor="middle" transform="translate(2, 4.8)">4</text>
+  </g>
+
+  <g id="Camping" transform="translate(90, 65)rotate(8)">
+    <rect width="40" height="15" stroke="blue" stroke-width="0.5" stroke-dasharray="1, 2" fill="white"/>
+    <text text-anchor="middle" font-size="5" transform="translate(20, 10)">Camping Area</text>
+  </g>
+
+  <g id="Beer Garden" transform="translate(94, 85)">
+    <rect width="8" height="6" stroke="black" stroke-width="0.5" fill="white"/>
+    <text class="number" text-anchor="middle" transform="translate(4, 5)">5</text>
+  </g>
+
+  <g id="SportsField" transform="translate(2, 18)">
+    <path d="M0,0 H45 L62,6.5 H68 V40 H0 Z" stroke="#888" stroke-width="0.5" fill="green"/>
+    <text text-anchor="middle" font-size="5" transform="translate(35, 20)">Sports Field</text>
+  </g>
+
+  <g id="PedBridge" transform="translate(70.5, 30)">
+    <rect width="4" height="5" stroke="black" stroke-width="0.5" fill="white"/>
+    <text class="number" text-anchor="middle" transform="translate(2, 4.5)">6</text>
+  </g>
+
+  <g id="Bar" transform="translate(54, 4)">
+    <rect width="15" height="12" stroke="black" stroke-width="0.5" fill="white" transform="rotate(20)"/>
+    <text class="number" text-anchor="middle" transform="translate(5, 9)">7</text>
+  </g>
+
+</svg>

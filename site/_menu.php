@@ -1,11 +1,6 @@
 <nav id="menu" class="hide-for-small-only">
   <div class="grid-x grid-padding-x grid-padding-y">
 
-    <!-- <div class="small-12 medium-6 large-4 cell">
-      <a class="linkbox" href="<?=$prefix?>/">
-        News <span class="pull-right"><i class="fa fa-newspaper-o"></i></span>
-      </a>
-    </div> -->
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/what.php">
         What is Moot? <span class="pull-right"><i class="fa fa-question"></i></span>
@@ -21,21 +16,16 @@
         Where is Moot? <span class="pull-right"><i class="fa fa-map-marker"></i></span>
       </a>
     </div>
-    <!-- <div class="small-12 medium-6 large-4 cell">
-      <a class="linkbox"  href="<?=$prefix?>/theme.php">
-        The Theme <span class="pull-right"><i class="fa fa-euro"></i></span>
-      </a>
-    </div> -->
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox"  href="<?=$prefix?>/tours.php">
         Tours <span class="pull-right"><i class="fa fa-map-signs"></i></span>
       </a>
     </div>
-    <!-- <div class="small-12 medium-6 large-4 cell">
+    <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox"  href="<?=$prefix?>/merch.php">
         Merchandise <span class="pull-right"><i class="fa fa-shopping-cart"></i></span>
       </a>
-    </div> -->
+    </div>
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/trophies.php">
         Trophies <span class="pull-right"><i class="fa fa-trophy"></i></span>
@@ -56,11 +46,11 @@
         Sponsors <span class="pull-right"><i class="fa fa-plus"></i></span>
       </a>
     </div>
-    <!-- <div class="small-12 medium-6 large-4 cell">
-      <a class="linkbox" href="https://secure.leukaemia.net.nz/registrant/TeamFundraisingPage.aspx?teamID=101467">
+    <div class="small-12 medium-6 large-4 cell">
+      <a class="linkbox" href="https://secure.artezpacific.com/registrant/TeamFundRaisingPage.aspx?eventID=49884&TeamID=105040">
         Shave for a Cure <span class="pull-right"><i class="fa fa-scissors"></i></span>
       </a>
-    </div> -->
+    </div>
     <div class="small-12 medium-6 large-4 cell">
       <a class="linkbox" href="<?=$prefix?>/contact.php">
         Contact Us <span class="pull-right"><i class="fa fa-at"></i></span>
@@ -107,21 +97,16 @@
         Where is Moot? <span class="pull-right"><i class="fa fa-map-marker fa-fw"></i></span>
       </a>
     </li>
-    <!-- <li>
-      <a class="linkbox"  href="<?=$prefix?>/theme.php">
-        The Theme <span class="pull-right"><i class="fa fa-euro fa-fw"></i></span>
-      </a>
-    </li> -->
     <li>
       <a class="linkbox"  href="<?=$prefix?>/tours.php">
         Tours <span class="pull-right"><i class="fa fa-map-signs"></i></span>
       </a>
     </li>
-    <!--<li>
+    <li>
       <a class="linkbox"  href="<?=$prefix?>/merch.php">
         Merchandise <span class="pull-right"><i class="fa fa-shopping-cart fa-fw"></i></span>
       </a>
-    </li> -->
+    </li>
     <li>
       <a class="linkbox" href="<?=$prefix?>/trophies.php">
         Trophies <span class="pull-right"><i class="fa fa-trophy fa-fw"></i></span>
@@ -142,11 +127,11 @@
         Sponsors <span class="pull-right"><i class="fa fa-plus fa-fw"></i></span>
       </a>
     </li>
-    <!-- <li>
-      <a class="linkbox" href="https://secure.leukaemia.net.nz/registrant/TeamFundraisingPage.aspx?teamID=101467">
+    <li>
+      <a class="linkbox" href="https://secure.artezpacific.com/registrant/TeamFundRaisingPage.aspx?eventID=49884&TeamID=105040">
         Shave for a Cure <span class="pull-right"><i class="fa fa-scissors"></i></span>
       </a>
-    </li> -->
+    </li>
     <li>
       <a class="linkbox" href="<?=$prefix?>/contact.php">
         Contact Us <span class="pull-right"><i class="fa fa-at fa-fw"></i></span>
